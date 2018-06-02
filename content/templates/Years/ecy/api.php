@@ -1,0 +1,14 @@
+<?php
+$id=rand(1,5);
+$image[1]='http://www.005.tv/uploads/allimg/180515/16461C545-2.jpg';
+$image[2]='http://www.005.tv/uploads/allimg/180515/1646163954-12.jpg';
+$image[3]='http://www.005.tv/uploads/allimg/180419/160622E03-6.jpg';
+$image[4]='http://www.005.tv/uploads/allimg/180515/13340R206-17.jpg';
+$image[5]='http://www.005.tv/uploads/allimg/180507/15541L4S-16.jpg';
+$image[6]='http://www.005.tv/uploads/allimg/180404/1P44562A-2.jpg';
+$image[7]='http://www.005.tv/uploads/allimg/180402/141A45L6-2.jpg';
+$image[8]='http://www.005.tv/uploads/allimg/180402/141A41H5-10.jpg';
+$image[9]='http://www.005.tv/uploads/allimg/180326/142251MU-22.jpg';
+$image[10]='http://www.005.tv/uploads/allimg/180328/14350H059-15.jpg';
+header("location:$image[$id]");
+?> 
