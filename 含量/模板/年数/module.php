@@ -305,7 +305,7 @@ function blog_navi(){
 	<?php endforeach; ?>	
 <?php if($more=='1'){?>	
 	<li class=" menu-item-has-children"> 
-	<a href="javascript:;"><i class="icon-doc"></i>页面模板</a>
+	<a href="javascript:;"><i class="icon-doc"></i>影梦网络</a>
 	<ul class="sub-menu"> 
 	<?php echo $more_html;?>
 	</ul> 
